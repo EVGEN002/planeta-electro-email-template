@@ -386,12 +386,12 @@ bodyClass: bg-slate-50
                         <!-- Total row [start] -->
                         <tr>
                           <td>
-                            <table class="w-full text-sm">
+                            <table class="w-full">
                               <tr>
-                                <td class="font-semibold">Общий вес:</td>
+                                <td class="whitespace-nowrap font-semibold sm:text-sm">Общий вес:</td>
                                 <td
                                   align="end"
-                                  class="font-medium text-[#737373]"
+                                  class="whitespace-nowrap font-medium text-[#737373]"
                                 >
                                   1000 кг
                                 </td>
@@ -400,10 +400,10 @@ bodyClass: bg-slate-50
                                 <td class="leading-1">&zwj;</td>
                               </tr>
                               <tr>
-                                <td class="font-semibold">Товаров в заказе:</td>
+                                <td class="whitespace-nowrap font-semibold sm:text-sm">Товаров в заказе:</td>
                                 <td
                                   align="end"
-                                  class="font-medium text-[#737373]"
+                                  class="whitespace-nowrap font-medium text-[#737373]"
                                 >
                                   10
                                 </td>
@@ -412,10 +412,10 @@ bodyClass: bg-slate-50
                                 <td class="leading-1">&zwj;</td>
                               </tr>
                               <tr>
-                                <td class="font-semibold">Товары на сумму:</td>
+                                <td class="whitespace-nowrap font-semibold sm:text-sm">Товары на сумму:</td>
                                 <td
                                   align="end"
-                                  class="font-medium text-[#737373]"
+                                  class="whitespace-nowrap font-medium text-[#737373]"
                                 >
                                   24 089,00 ₽
                                 </td>
@@ -424,12 +424,12 @@ bodyClass: bg-slate-50
                                 <td class="leading-1">&zwj;</td>
                               </tr>
                               <tr>
-                                <td class="font-semibold">
+                                <td class="whitespace-nowrap font-semibold sm:text-sm">
                                   Стоимость доставки:
                                 </td>
                                 <td
                                   align="end"
-                                  class="font-medium text-[#737373]"
+                                  class="whitespace-nowrap font-medium text-[#737373]"
                                 >
                                   100 ₽
                                 </td>
@@ -438,10 +438,10 @@ bodyClass: bg-slate-50
                                 <td class="leading-1">&zwj;</td>
                               </tr>
                               <tr>
-                                <td class="font-semibold">Скидка:</td>
+                                <td class="whitespace-nowrap font-semibold sm:text-sm">Скидка:</td>
                                 <td
                                   align="end"
-                                  class="font-medium text-[#C30F28]"
+                                  class="whitespace-nowrap font-medium text-[#C30F28]"
                                 >
                                   -100 ₽
                                 </td>
@@ -450,18 +450,49 @@ bodyClass: bg-slate-50
                                 <td class="leading-1">&zwj;</td>
                               </tr>
                               <tr>
-                                <td class="font-semibold">Итого:</td>
+                                <td class="whitespace-nowrap font-semibold sm:text-sm">Итого:</td>
                                 <td
                                   align="end"
-                                  class="text-2xl font-bold leading-4 text-[#19191E]"
+                                  class="whitespace-nowrap text-2xl sm:text-xl font-bold leading-4 text-[#19191E]"
                                 >
-                                  100 000 ₽
+                                  100 000 000 ₽
                                 </td>
                               </tr>
                             </table>
                           </td>
                         </tr>
                         <!-- Total row [end] -->
+                        <tr role="separator">
+                          <td class="leading-5">&zwj;</td>
+                        </tr>
+                        <!-- Order info [start] -->
+                        <tr>
+                          <td class="bg-[#F9F9F9] px-[30px] sm:px-[14px]">
+                            <table class="w-full">
+                              <tr>
+                                <td
+                                  class="py-4 text-center text-lg font-bold sm:text-left"
+                                >
+                                  Информация о заказе
+                                </td>
+                              </tr>
+                              <tr role="separator">
+                                <td class="leading-4 sm:hidden">&zwj;</td>
+                              </tr>
+                              <tr>
+                                <td>
+                                  <table class="w-full">
+                                    <tr>
+                                      <td class="text-sm text-[#737373] font-bold sm:block">Контактное лицо:</td>
+                                      <td class="text-sm font-normal sm:block">Спиридонова Алена Владимировна</td>
+                                    </tr>
+                                  </table>
+                                </td>
+                              </tr>
+                            </table>
+                          </td>
+                        </tr>
+                        <!-- Order info [end] -->
                       </table>
                     </td>
                   </tr>
