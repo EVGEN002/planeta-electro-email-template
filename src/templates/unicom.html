@@ -6,16 +6,22 @@ bodyClass: bg-slate-50
 ---
 
 <x-main>
-  <div class="bg-slate-50 sm:px-4 font-sans">
+  <div class="bg-slate-50 font-sans sm:px-4">
     <table align="center">
       <tr>
-        <td class="w-full bg-[#C30F28] max-w-[600px] sm:max-w-full sm:w-[600px]">
+        <td
+          class="w-full max-w-[600px] bg-[#C30F28] sm:w-[600px] sm:max-w-full"
+        >
           <table class="w-full">
             <!-- Intro [start] -->
             <tr>
-              <td class="pt-12 sm:py-8 sm:px-6 text-center">
+              <td class="pt-12 text-center sm:px-6 sm:py-8">
                 <a href="https://planeta-electro.com/">
-                  <img class="sm:w-32" src="images/logo.png" alt="Planeta-electro" />
+                  <img
+                    class="sm:w-32"
+                    src="images/logo.png"
+                    alt="Planeta-electro"
+                  />
                 </a>
               </td>
             </tr>
@@ -23,7 +29,7 @@ bodyClass: bg-slate-50
               <td class="leading-4 sm:leading-0">&zwj;</td>
             </tr>
             <tr>
-              <td class="text-center font-bold text-2xl sm:text-lg">
+              <td class="text-center text-2xl font-bold sm:text-lg">
                 Здравствуйте, Евгений
               </td>
             </tr>
@@ -31,7 +37,7 @@ bodyClass: bg-slate-50
               <td class="leading-2">&zwj;</td>
             </tr>
             <tr>
-              <td class="text-center font-medium text-lg sm:text-base">
+              <td class="text-center text-lg font-medium sm:text-base">
                 Мы получили ваш заказ
               </td>
             </tr>
@@ -50,20 +56,37 @@ bodyClass: bg-slate-50
             <tr role="separator">
               <td class="leading-8">&zwj;</td>
             </tr>
-            <!-- remove display: none; after test -->
-            <tr style="display: none;">
+            <tr>
               <td class="px-4">
                 <table class="w-full">
                   <tr>
-                    <td class="bg-white rounded-lg px-[30px] text-black">
+                    <td class="rounded-lg bg-white px-[30px] text-black">
                       <table class="w-full">
                         <tr>
-                          <td class="py-8">
+                          <td class="py-7 sm:py-4">
                             <table class="w-full">
                               <tr>
-                                <td class="font-bold text-2xl">ЗАКАЗ #1000</td>
-                                <td class="text-end text-gray-500">
-                                  от 20.01.2024 г.
+                                <td class="sm:block">
+                                  <table class="w-full">
+                                    <tr>
+                                      <td
+                                        class="text-2xl font-bold sm:text-center sm:text-[20px] sm:leading-10"
+                                      >
+                                        ЗАКАЗ #1000
+                                      </td>
+                                    </tr>
+                                  </table>
+                                </td>
+                                <td class="sm:block">
+                                  <table class="w-full">
+                                    <tr>
+                                      <td
+                                        class="text-end text-gray-500 sm:text-center sm:text-[13px]"
+                                      >
+                                        от 20.01.2024 г.
+                                      </td>
+                                    </tr>
+                                  </table>
                                 </td>
                               </tr>
                             </table>
@@ -72,7 +95,7 @@ bodyClass: bg-slate-50
                         <tr>
                           <td>
                             <div
-                              class="h-px leading-px border-0 border-t border-dashed border-slate-300 bg-none"
+                              class="h-px border-0 border-t border-dashed border-slate-300 bg-none leading-px"
                               role="separator"
                             >
                               &zwj;
@@ -80,37 +103,37 @@ bodyClass: bg-slate-50
                           </td>
                         </tr>
                         <tr>
-                          <td class="pt-8 text-md font-semibold text-center">
+                          <td class="text-md pt-8 text-center font-semibold">
                             Состав заказа
                           </td>
                         </tr>
                         <!-- Table row [start] -->
                         <tr>
-                          <td class="pt-4 max-w-[508px]">
+                          <td class="max-w-[508px] pt-4">
                             <table class="w-full">
                               <thead>
                                 <tr class="bg-[#F9F9F9]">
                                   <td
                                     align="start"
-                                    class="px-2 py-2 whitespace-nowrap font-semibold text-[#616161] text-sm"
+                                    class="whitespace-nowrap px-2 py-2 text-sm font-semibold text-[#616161]"
                                   >
                                     Товар
                                   </td>
                                   <td
                                     align="start"
-                                    class="px-2 py-2 whitespace-nowrap font-semibold text-[#616161] text-sm"
+                                    class="whitespace-nowrap px-2 py-2 text-sm font-semibold text-[#616161]"
                                   >
                                     Кол-во
                                   </td>
                                   <td
                                     align="start"
-                                    class="px-2 py-2 whitespace-nowrap font-semibold text-[#616161] text-sm"
+                                    class="whitespace-nowrap px-2 py-2 text-sm font-semibold text-[#616161]"
                                   >
                                     Цена
                                   </td>
                                   <td
                                     align="end"
-                                    class="px-2 py-2 whitespace-nowrap font-semibold text-[#616161] text-sm"
+                                    class="whitespace-nowrap px-2 py-2 text-sm font-semibold text-[#616161]"
                                   >
                                     Сумма
                                   </td>
@@ -130,19 +153,19 @@ bodyClass: bg-slate-50
                                             alt="Product"
                                           />
                                         </td>
-                                        <td class="pl-2 py-4">
-                                          <table
-                                            class="w-full"
-                                          >
+                                        <td class="py-4 pl-2">
+                                          <table class="w-full">
                                             <tr>
-                                              <td class="text-sm min-w-[180px]">
+                                              <td class="min-w-[180px] text-sm">
                                                 Штукатурка гипсовая
                                                 универсальная Ротбанд KNAUF 30
                                                 кг.
                                               </td>
                                             </tr>
                                             <tr>
-                                              <td class="pt-2 text-[#616161] text-sm">
+                                              <td
+                                                class="pt-2 text-sm text-[#616161]"
+                                              >
                                                 Код: 2862
                                               </td>
                                             </tr>
@@ -151,10 +174,18 @@ bodyClass: bg-slate-50
                                       </tr>
                                     </table>
                                   </td>
-                                  <td align="center" valign="top" class="px-2 py-4 font-semibold whitespace-nowrap">
+                                  <td
+                                    align="center"
+                                    valign="top"
+                                    class="whitespace-nowrap px-2 py-4 font-semibold"
+                                  >
                                     100 шт.
                                   </td>
-                                  <td align="center" valign="top" class="px-2 py-4 font-semibold whitespace-nowrap">
+                                  <td
+                                    align="center"
+                                    valign="top"
+                                    class="whitespace-nowrap px-2 py-4 font-semibold"
+                                  >
                                     1800 ₽
                                   </td>
                                   <td valign="top" class="py-4">
@@ -162,7 +193,7 @@ bodyClass: bg-slate-50
                                       <tr>
                                         <td
                                           align="end"
-                                          class="px-2 whitespace-nowrap text-slate-400 line-through"
+                                          class="whitespace-nowrap px-2 text-slate-400 line-through"
                                         >
                                           10 000 ₽
                                         </td>
@@ -170,7 +201,7 @@ bodyClass: bg-slate-50
                                       <tr>
                                         <td
                                           align="end"
-                                          class="px-2 whitespace-nowrap font-semibold"
+                                          class="whitespace-nowrap px-2 font-semibold"
                                         >
                                           7 800 ₽
                                         </td>
@@ -181,25 +212,25 @@ bodyClass: bg-slate-50
                                 <tr>
                                   <td>
                                     <div
-                                      class="h-px leading-px border-0 border-t border-solid border-slate-200 bg-none"
+                                      class="h-px border-0 border-t border-solid border-slate-200 bg-none leading-px"
                                       role="separator"
                                     ></div>
                                   </td>
                                   <td>
                                     <div
-                                      class="h-px leading-px border-0 border-t border-solid border-slate-200 bg-none"
+                                      class="h-px border-0 border-t border-solid border-slate-200 bg-none leading-px"
                                       role="separator"
                                     ></div>
                                   </td>
                                   <td>
                                     <div
-                                      class="h-px leading-px border-0 border-t border-solid border-slate-200 bg-none"
+                                      class="h-px border-0 border-t border-solid border-slate-200 bg-none leading-px"
                                       role="separator"
                                     ></div>
                                   </td>
                                   <td>
                                     <div
-                                      class="h-px leading-px border-0 border-t border-solid border-slate-200 bg-none"
+                                      class="h-px border-0 border-t border-solid border-slate-200 bg-none leading-px"
                                       role="separator"
                                     ></div>
                                   </td>
@@ -219,42 +250,74 @@ bodyClass: bg-slate-50
                             <table class="w-full text-sm">
                               <tr>
                                 <td class="font-semibold">Общий вес:</td>
-                                <td align="end" class="text-[#737373] font-medium">1000 кг</td>
+                                <td
+                                  align="end"
+                                  class="font-medium text-[#737373]"
+                                >
+                                  1000 кг
+                                </td>
                               </tr>
                               <tr role="separator">
                                 <td class="leading-1">&zwj;</td>
                               </tr>
                               <tr>
                                 <td class="font-semibold">Товаров в заказе:</td>
-                                <td align="end" class="text-[#737373] font-medium">10</td>
+                                <td
+                                  align="end"
+                                  class="font-medium text-[#737373]"
+                                >
+                                  10
+                                </td>
                               </tr>
                               <tr role="separator">
                                 <td class="leading-1">&zwj;</td>
                               </tr>
                               <tr>
                                 <td class="font-semibold">Товары на сумму:</td>
-                                <td align="end" class="text-[#737373] font-medium">24 089,00 ₽</td>
+                                <td
+                                  align="end"
+                                  class="font-medium text-[#737373]"
+                                >
+                                  24 089,00 ₽
+                                </td>
                               </tr>
                               <tr role="separator">
                                 <td class="leading-1">&zwj;</td>
                               </tr>
                               <tr>
-                                <td class="font-semibold">Стоимость доставки:</td>
-                                <td align="end" class="text-[#737373] font-medium">100 ₽</td>
+                                <td class="font-semibold">
+                                  Стоимость доставки:
+                                </td>
+                                <td
+                                  align="end"
+                                  class="font-medium text-[#737373]"
+                                >
+                                  100 ₽
+                                </td>
                               </tr>
                               <tr role="separator">
                                 <td class="leading-1">&zwj;</td>
                               </tr>
                               <tr>
                                 <td class="font-semibold">Скидка:</td>
-                                <td align="end" class="text-[#C30F28] font-medium">-100 ₽</td>
+                                <td
+                                  align="end"
+                                  class="font-medium text-[#C30F28]"
+                                >
+                                  -100 ₽
+                                </td>
                               </tr>
                               <tr role="separator">
                                 <td class="leading-1">&zwj;</td>
                               </tr>
                               <tr>
                                 <td class="font-semibold">Итого:</td>
-                                <td align="end" class="text-[#19191E] font-bold text-2xl leading-4">100 000 ₽</td>
+                                <td
+                                  align="end"
+                                  class="text-2xl font-bold leading-4 text-[#19191E]"
+                                >
+                                  100 000 ₽
+                                </td>
                               </tr>
                             </table>
                           </td>
