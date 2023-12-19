@@ -6,12 +6,10 @@ bodyClass: bg-slate-50
 ---
 
 <x-main>
-  <div class="bg-slate-50 font-sans sm:px-4">
+  <div class="bg-slate-50 font-sans">
     <table align="center">
       <tr>
-        <td
-          class="w-full max-w-[600px] bg-[#C30F28] sm:w-[600px] sm:max-w-full"
-        >
+        <td class="w-full max-w-[600px] bg-[#C30F28] sm:max-w-full">
           <table class="w-full">
             <!-- Intro [start] -->
             <tr>
@@ -118,7 +116,7 @@ bodyClass: bg-slate-50
                         <!-- Table row [start] -->
                         <tr>
                           <!-- desktop [start] -->
-                          <td class="max-w-[508px] sm:hidden">
+                          <td class="max-w-[508px] sm:hidden sm:max-w-full">
                             <table class="w-full">
                               <thead>
                                 <tr class="bg-[#F9F9F9]">
@@ -635,7 +633,10 @@ bodyClass: bg-slate-50
                                       <td class="leading-4">&zwj;</td>
                                     </tr>
                                     <tr>
-                                      <td class="h-6 w-6 sm:align-top" align="center">
+                                      <td
+                                        class="h-6 w-6 sm:align-top"
+                                        align="center"
+                                      >
                                         <img
                                           src="images/time.png"
                                           alt="location"
@@ -715,9 +716,15 @@ bodyClass: bg-slate-50
                           <td align="center">
                             <table class="w-[140px]">
                               <tr>
-                                <td align="start"><img src="images/vk.png" alt="vk"></td>
-                                <td align="center"><img src="images/tg.png" alt="telegram"></td>
-                                <td align="end"><img src="images/yt.png" alt="youtube"></td>
+                                <td align="start">
+                                  <img src="images/vk.png" alt="vk" />
+                                </td>
+                                <td align="center">
+                                  <img src="images/tg.png" alt="telegram" />
+                                </td>
+                                <td align="end">
+                                  <img src="images/yt.png" alt="youtube" />
+                                </td>
                               </tr>
                             </table>
                           </td>
@@ -726,9 +733,105 @@ bodyClass: bg-slate-50
                         <tr role="separator">
                           <td class="leading-4">&zwj;</td>
                         </tr>
-                        <!-- Contacrs [start] -->
-                        
+                        <!-- Contacts [start] -->
+                        <tr>
+                          <td>
+                            <table class="w-full">
+                              <tr>
+                                <td class="sm:inline-block" valign="top">
+                                  <table class="w-full">
+                                    <tr>
+                                      <td
+                                        class="h-[20px] w-[20px]"
+                                        valign="top"
+                                      >
+                                        <img src="images/shop.png" alt="shop" />
+                                      </td>
+                                      <td class="pl-2">
+                                        <table class="w-full">
+                                          <tr>
+                                            <td class="font-bold">
+                                              Список магазинов
+                                            </td>
+                                          </tr>
+                                          <tr>
+                                            <td class="text-sm">
+                                              ул. Автодорожная, 11а
+                                            </td>
+                                          </tr>
+                                          <tr>
+                                            <td class="text-sm">
+                                              ул. Автодорожная, 8 (склад)
+                                            </td>
+                                          </tr>
+                                          <tr>
+                                            <td class="text-sm">
+                                              ул. ЯЭК Хатынг-юрях
+                                            </td>
+                                          </tr>
+                                        </table>
+                                      </td>
+                                    </tr>
+                                  </table>
+                                </td>
+                                <td
+                                  class="sm:inline-block sm:pt-4"
+                                  valign="top"
+                                >
+                                  <table class="w-full">
+                                    <tr>
+                                      <td
+                                        class="h-[20px] w-[20px]"
+                                        valign="top"
+                                      >
+                                        <img
+                                          src="images/phone.png"
+                                          alt="shop"
+                                        />
+                                      </td>
+                                      <td class="pl-2">
+                                        <table class="w-full">
+                                          <tr>
+                                            <td class="font-bold">
+                                              Контакт-центр
+                                            </td>
+                                          </tr>
+                                          <tr>
+                                            <td class="text-sm">
+                                              +7 (4112) 455-000
+                                            </td>
+                                          </tr>
+                                          <tr>
+                                            <td class="text-sm">
+                                              unicom@gk-venture.ru
+                                            </td>
+                                          </tr>
+                                        </table>
+                                      </td>
+                                    </tr>
+                                  </table>
+                                </td>
+                              </tr>
+                            </table>
+                          </td>
+                        </tr>
                         <!-- Contacrs [end] -->
+                        <tr role="separator">
+                          <td class="leading-4">&zwj;</td>
+                        </tr>
+                        <!-- PS [start] -->
+                        <tr>
+                          <td class="text-[12px] text-[#818181]">
+                            Вы получили это письмо, потому что являетесь
+                            клиентом магазина unicom-ykt.ru. Вы можете
+                            отписаться от рассылки (ссылка на кнопку для
+                            отписки)
+                          </td>
+                        </tr>
+                        <!-- PS [end] -->
+                        <tr role="separator">
+                          <td class="leading-4">&zwj;</td>
+                        </tr>
                       </table>
                     </td>
                   </tr>
